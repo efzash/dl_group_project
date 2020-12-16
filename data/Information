@@ -1,0 +1,37 @@
+Parameters if additional datapoints are needed
+Sunspot Time series
+http://www.sidc.be/silso/datafiles
+
+
+Mackey-Glass
+
+    beta = .2
+    gamma = 0.1
+    tau = 17
+    n = 10
+    dt = 1
+    np.random.seed(0)
+    initialisation = np.random.rand(tau)
+
+NARMA10
+
+    alpha = .3
+    beta = .05
+    gamma = 1.5
+    delta = 0.1
+    order = 10
+
+Rössler
+
+    initialisation at (1,1,1)
+    time step width = 0.01
+    a = 0.2
+    b = 0.2
+    c = 5.7
+
+Lorenz
+
+    initialisation at (1,1,0)
+    rho = 28
+    sigma = 10
+    beta = 8/3
